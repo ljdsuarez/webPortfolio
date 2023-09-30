@@ -1,0 +1,34 @@
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  width: 50%;
+}
+
+.laurenz {
+  margin-right: auto;
+  text-align: end;
+  padding-right: 10px;
+  transform: translateY(0%);
+  animation: top 1.5s ease-in-out forwards;
+}
+
+@keyframes top {
+  from {
+    transform: translateY(-1000%);
+  }
+}
+
+.julian {
+  margin-left: auto;
+  padding-left: 10px;
+  transform: translateY(0%);
+  animation: bottom 1.5s ease-in-out forwards;
+}
+
+@keyframes bottom {
+  from {
+    transform: translateY(1000%);
+  }
+}

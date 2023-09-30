@@ -1,0 +1,33 @@
+.subTitleName {
+  font-size: 1rem;
+  mix-blend-mode: difference;
+  color: #ffffff;
+}
+
+.designer {
+  width: 48%;
+  text-align: end;
+  margin-right: 2%;
+  animation: left 1.5s ease-in-out forwards;
+  transform: translateX(0%);
+}
+
+@keyframes left {
+  from {
+    transform: translateX(-1000%);
+  }
+}
+
+.contentCreator {
+  width: 48%;
+  margin-left: 2%;
+  animation: right 1.5s ease-in-out forwards;
+  transform: translateX(0%);
+}
+
+@keyframes right {
+  from {
+    transform: translateX(1000%);
+    opacity: 0;
+  }
+}
