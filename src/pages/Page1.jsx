@@ -6,6 +6,7 @@ const Page1 = (props) => {
       style={{
         height: "100vh",
         position: "relative",
+        overflow: "hidden",
       }}
     >
       {props.children}

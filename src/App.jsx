@@ -6,6 +6,7 @@ import SubTitleName from "./components/title/subTitleContent/SubTitleName/SubTit
 import Page1 from "./pages/Page1";
 import Background from "./components/title/Background/Background";
 import Page2 from "./pages/Page2";
+import MarqueeText from "./components/title/MarqueeText/MarqueeText";
 
 function App() {
   return (

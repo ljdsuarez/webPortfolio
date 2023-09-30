@@ -12,7 +12,7 @@
   width: 50%;
   right: 0;
   background-color: #202124;
-  animation: bgAnimationLeft 1.5s ease-in-out forwards;
+  animation: bgAnimationLeft 2s ease-in-out forwards;
 }
 
 @keyframes bgAnimationRight {
