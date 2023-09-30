@@ -32,3 +32,13 @@
     transform: translateY(1000%);
   }
 }
+
+@media (min-width: 720px) {
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    mix-blend-mode: difference;
+    width: 50%;
+  }
+}

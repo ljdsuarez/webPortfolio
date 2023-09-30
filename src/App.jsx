@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Page1>
+        <Background className="bgLeft" />
         <TitleContent>
-          <Background />
           <TitleName className="laurenz" name="laurenz" />
           <SubTitleContent>
             <SubTitleName name="designer" className="designer" />

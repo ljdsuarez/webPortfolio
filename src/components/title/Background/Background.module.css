@@ -1,13 +1,21 @@
-.background {
+.bgRight {
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background-color: #202124;
+  animation: bgAnimationRight 1.5s ease-in-out forwards;
+  position: absolute;
+}
+
+.bgLeft {
   height: 150%;
   width: 50%;
   right: 0;
   background-color: #202124;
-  position: absolute;
-  animation: bgAnimation 1.5s ease-in-out forwards;
+  animation: bgAnimationLeft 1.5s ease-in-out forwards;
 }
 
-@keyframes bgAnimation {
+@keyframes bgAnimationRight {
   0% {
     left: 0;
     width: 0%;
@@ -22,6 +30,25 @@
   }
   100% {
     right: 0;
+    width: 50%;
+  }
+}
+
+@keyframes bgAnimationLeft {
+  0% {
+    right: 0;
+    width: 0%;
+  }
+  33% {
+    right: 0;
+    width: 150%;
+  }
+  66% {
+    left: 0;
+    width: 150%;
+  }
+  100% {
+    left: 0;
     width: 50%;
   }
 }

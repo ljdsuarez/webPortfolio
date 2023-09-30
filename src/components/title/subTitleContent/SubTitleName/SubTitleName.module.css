@@ -31,3 +31,11 @@
     opacity: 0;
   }
 }
+
+@media (min-width: 720px) {
+  .subTitleName {
+    font-size: 1.5rem;
+    mix-blend-mode: difference;
+    color: #ffffff;
+  }
+}
